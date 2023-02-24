@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	char word;
 
-	word = "_putchar";
+	word[] = "_putchar";
 	for (i = 0; i < strlen(word); i++)
 	{
 		_putchar(word[i]);

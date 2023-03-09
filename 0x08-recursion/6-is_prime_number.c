@@ -6,6 +6,7 @@
  * @i: iterate number
  *
  * Return: 1(if number is prime), 0(Otherwise)
+ *
  */
 
 int check_prime(int n, int i)

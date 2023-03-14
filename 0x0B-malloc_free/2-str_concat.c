@@ -30,9 +30,9 @@ char *str_concat(char *s1, char *s2)
 		{
 			new_str[r] = s1[r];
 		}
-		else
+		if (s1[r] == '\0')
 		{
-			new_str[r] = s2[q];
+			new_str[r + q] = s2[q];
 			q++;
 		}
 		r++;

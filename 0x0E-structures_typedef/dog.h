@@ -1,5 +1,5 @@
-#ifndef __DOG__
-#define __DOG__
+#ifndef __HEADER__
+#define __HEADER__
 
 /**
  * struct dog - Dog attributes

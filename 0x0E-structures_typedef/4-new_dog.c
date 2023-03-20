@@ -61,7 +61,7 @@ int _strlen(char *s)
 {
 	int i = 0;
 
-	while(s[i])
+	while (s[i])
 	{
 		i++;
 	}
@@ -80,7 +80,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
-	while(src[i])
+	while (src[i])
 	{
 		dest[i] = src[i];
 		i++;
